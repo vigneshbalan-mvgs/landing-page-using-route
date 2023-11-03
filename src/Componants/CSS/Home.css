@@ -1,0 +1,112 @@
+.home{
+  margin-top: 30px;
+   height: 100%;
+   width: 100%;
+  }
+  
+  .carousel-caption {
+    text-align: center;
+    background: rgba(0, 0, 0); /* Add a semi-transparent background to the caption */
+    padding: 20px;
+    color: #fff;
+  }
+  
+  .carousel-caption h3 {
+    font-size: 24px;
+  }
+  
+  .carousel-caption p {
+    font-size: 16px;
+  }
+  
+  .agency-info {
+    margin: 100px auto;
+    background-color: rgba(255, 255, 255); /* Semi-transparent background */
+    border-radius: 5px;
+    padding: 30px;
+    color: rgb(255, 255, 255);
+    max-width: 80%;
+  }
+  
+  h2 {
+    font-size: 28px;
+    margin: 0;
+  }
+  
+  p {
+    font-size: 18px;
+    line-height: 1.4;
+  }
+  
+  h3 {
+    font-size: 36px;
+  }
+  
+  /* Media query for smaller screens (e.g., mobile) */
+  @media (max-width: 768px) {
+    .marketing-carousel {
+      height: auto; /* Adjust for mobile height */
+      padding: 10px;
+    }
+  
+    .agency-info {
+      padding: 10px;
+    }
+  
+    h2 {
+      font-size: 24px;
+    }
+  
+    p {
+      font-size: 16px;
+    }
+  
+    h3 {
+      font-size: 28px;
+    }
+  }
+
+  .img1{
+    width: 100%;
+    height: 100%;
+    background-image: url('../imgs/img1.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    z-index: 1;
+    filter: brightness(.9);
+  }
+  
+  .img2{
+    width: 100%;
+    height: 100%;
+    background-image: url('../imgs/img2.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    z-index: 1;
+    filter: brightness(.9);
+  }
+  
+  .img3{
+    width: 100%;
+    height: 100%;
+    background-image: url('../imgs/img3.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    z-index: 1;
+    filter: brightness(.9);
+  }
+
+  #first{
+    background-color: rgb(255, 255, 255); /* Semi-transparent background */
+    border-radius: 5px;
+    padding: 30px;
+    color: rgb(255, 255, 255);
+    max-width: 100%;
+    height: 60vh;
+  }

@@ -1,0 +1,297 @@
+/* Set global styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Style the entire "About" page container */
+  .about-page {
+    background-color: #fff;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Style the "About Our Digital Marketing Agency" section */
+  .about-section {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .about-section h2 {
+    color: #333;
+    font-size: 24px;
+  }
+  
+  .about-section p {
+    color: #666;
+    font-size: 16px;
+    line-height: 1.6;
+  }
+  
+  /* Style the "Meet Our Team" section */
+  .team-section {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .team-member {
+    display: inline-block;
+    margin: 10px;
+  }
+  
+  .team-member img {
+    border-radius: 50%;
+    max-width: 150px;
+    height: auto;
+  }
+  
+  .team-member h3 {
+    color: #333;
+    font-size: 18px;
+    margin-top: 10px;
+  }
+  
+  team-member p {
+    color: #666;
+    font-size: 14px;
+  }
+  
+  /* Style the "Our Mission" section */
+  .mission-section {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .mission-section h2 {
+    color: #333;
+    font-size: 24px;
+  }
+  
+  .mission-section p {
+    color: #666;
+    font-size: 16px;
+    line-height: 1.6;
+  }
+  
+  /* Style the "Our Values" section */
+  .values-section {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .values-section h2 {
+    color: #333;
+    font-size: 24px;
+  }
+  
+  .values-section ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .values-section li {
+    color: #666;
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  
+  /* Add any additional CSS styles and customizations to match your branding */
+/* Style the background of the "About" page */
+.about-page {
+    background-color: #f9f9f9;
+    border: 1px solid #e0e0e0;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    margin: 20px auto;
+    max-width: 800px;
+  }
+  
+  /* Style headings */
+  h2 {
+    font-size: 24px;
+    color: #333;
+    margin-top: 20px;
+  }
+  
+  /* Style the team member cards */
+  .team-member {
+    display: inline-block;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #e0e0e0;
+    border-radius: 5px;
+    background-color: #fff;
+  }
+  
+  .team-member img {
+    border-radius: 50%;
+    max-width: 150px;
+    height: auto;
+  }
+  
+  .team-member h3 {
+    font-size: 18px;
+    color: #333;
+    margin-top: 10px;
+  }
+  
+  team-member p {
+    font-size: 16px;
+    color: #666;
+  }
+  
+  /* Style the mission and values sections */
+  .mission-section, .values-section {
+    text-align: left;
+  }
+  
+  /* Style the values list */
+  .values-section ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .values-section li {
+    color: #555;
+    font-size: 16px;
+    margin-bottom: 10px;
+    position: relative;
+    padding-left: 25px;
+  }
+  
+  .values-section li::before {
+    content: '✓';
+    position: absolute;
+    left: 0;
+    color: #38a1db;
+  }
+  
+  /* Add any additional CSS styles and customizations as needed */
+  /* Default styles for desktop */
+.about-page {
+    background-color: #f9f9f9;
+    border: 1px solid #e0e0e0;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    margin: 20px auto;
+    max-width: 800px;
+  }
+  
+  /* Style headings */
+  h2 {
+    font-size: 24px;
+    color: #333;
+    margin-top: 20px;
+  }
+  
+  /* Style the team member cards */
+  .team-member {
+    display: inline-block;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #e0e0e0;
+    border-radius: 5px;
+    background-color: #fff;
+  }
+  
+  .team-member img {
+    border-radius: 50%;
+    max-width: 150px;
+    height: auto;
+  }
+  
+  .team-member h3 {
+    font-size: 18px;
+    color: #333;
+    margin-top: 10px;
+  }
+  
+  team-member p {
+    font-size: 16px;
+    color: #666;
+  }
+  
+  /* Style the mission and values sections */
+  .mission-section, .values-section {
+    text-align: left;
+  }
+  
+  /* Style the values list */
+  .values-section ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .values-section li {
+    color: #555;
+    font-size: 16px;
+    margin-bottom: 10px;
+    position: relative;
+    padding-left: 25px;
+  }
+  
+  .values-section li::before {
+    content: '✓';
+    position: absolute;
+    left: 0;
+    color: #38a1db;
+  }
+  
+  /* Media query for tablets and small screens */
+  @media (max-width: 992px) {
+    .about-page {
+      padding: 15px;
+    }
+  
+    h2 {
+      font-size: 20px;
+    }
+  
+    .team-member {
+      max-width: 100%;
+    }
+  
+    team-member h3 {
+      font-size: 16px;
+    }
+  }
+  
+  /* Media query for mobile screens */
+  @media (max-width: 768px) {
+    .about-page {
+      margin: 10px;
+    }
+  
+    h2 {
+      font-size: 18px;
+      margin-top: 15px;
+    }
+  
+    .team-member {
+      padding: 8px;
+    }
+  
+    .team-member img {
+      max-width: 100px;
+    }
+  
+    team-member h3 {
+      font-size: 14px;
+    }
+  
+    team-member p {
+      font-size: 14px;
+    }
+  
+    .values-section li {
+      font-size: 14px;
+      margin-bottom: 8px;
+    }
+  }
+  
